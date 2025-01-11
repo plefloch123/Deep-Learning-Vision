@@ -1,0 +1,20 @@
+OK_FORMAT = True
+
+test = {   'name': 'MaxPool Layer',
+    'points': 15,
+    'suites': [   {   'cases': [   {   'code': '>>> list(MaxPool2d(3)(torch.zeros((10, 3, 64, 64))).shape) == [10, 3, 21, 21]\nTrue',
+                                       'failure_message': 'Shape Test Failed',
+                                       'hidden': False,
+                                       'locked': False,
+                                       'points': 0,
+                                       'success_message': 'Shape Test Passed'},
+                                   {   'code': '>>> type(MaxPool2d(3)(torch.zeros((10, 3, 64, 64)))) in [torch.Tensor]\nTrue',
+                                       'failure_message': 'Type Test Failed',
+                                       'hidden': False,
+                                       'locked': False,
+                                       'points': 0,
+                                       'success_message': 'Type Test Passed'}],
+                      'scored': True,
+                      'setup': '',
+                      'teardown': '',
+                      'type': 'doctest'}]}

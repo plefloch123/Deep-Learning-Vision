@@ -1,0 +1,8 @@
+otter-grader==6.0.4
+numpy==1.26.4
+matplotlib==3.10.0
+torch==2.5.1
+torchvision==0.20.1
+tqdm==4.67.1
+scikit-learn==1.6.0
+seaborn==0.13.2
